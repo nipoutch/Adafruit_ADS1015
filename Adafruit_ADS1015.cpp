@@ -96,7 +96,7 @@ Adafruit_ADS1015::Adafruit_ADS1015(uint8_t i2cAddress)
 {
 	m_i2cAddress = i2cAddress;
 	m_gain = GAIN_TWOTHIRDS; /* +/- 6.144V range (limited to VDD +0.3V max!) */
-	m_sps = SPS_3300
+	m_sps = SPS_3300;
 	m_conversionDelay = ADS1015_CONVERSIONDELAY_3300;
 }
 
